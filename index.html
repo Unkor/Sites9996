@@ -1,0 +1,151 @@
+<html>
+ 
+<body>
+ 
+<table width= "805" border= "0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffff00">
+ 
+<tr>
+ 
+<td height ="190" colspan="3"align="center"><h2>Верхня частина-Header</h2>
+<h2>Форма</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Імя Батьків:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">прізвище:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+ 
+</td>
+ 
+</tr>
+ 
+<td colspan="3"> <!-- --> <table width= "805" border= "0" align="center" cellpadding= "0" cellspacing="0" bgcolor="#ff0000">
+ 
+<tr>
+ 
+<td height ="40" align="center"><h2>Горизонтальний блок навігації</h2><label>тваринка:
+  <select name="pets" multiple size="4">
+    <optgroup label="4-legged pets">
+      <option value="dog">собачка</option>
+      <option value="cat">котик</option>
+      <option value="hamster" >хомяк</option>
+    </optgroup>
+    <optgroup label="Flying pets">
+      <option value="parrot">кролик</option>
+      <option value="macaw">коровка</>
+      <option value="albatross">албатрос</option>
+    </optgroup>
+  </select>
+</label>
+ 
+</td>
+ 
+</tr>
+ 
+</table>
+ 
+</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td width="230" valign="top" bgcolor="#d8cba8">
+ 
+<div id ="col_left" align="center" > <h2>Ліва колонка</h2><label for="story">Історія</label>
+
+<textarea id="story" name="story"
+          rows="5" cols="33">
+батько наш бандера укрїна мати ми за україну будем воювати
+
+</textarea>
+ 
+</div>
+ 
+</td>
+ 
+<td width="345" valign="top" bgcolor="#d8cba8">
+ 
+<div id ="content" align="center" > <h2>Центральна частина</h2>
+ 
+</div>
+ 
+</td>
+ 
+<td width="230" valign="top" bgcolor="#d8cba8">
+ 
+<div id ="col_right" align="center" > <h2>Права колонка</h2>
+<h1>Браузери</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="browser">варіанти</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+ 
+</div>
+ 
+</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td colspan="3"align="center" bgcolor="#00ff00"><h2>Нижня частина-Footer</h2>
+<form action="#">
+  <p><i>Заповнити форму </i><em>*</em></p>
+  <fieldset>
+    <legend>Контакти</legend>
+      <label for="name">Ваше Ім'я <em>*</em></label>
+      <input id="name"><br>
+      <label for="telephone">Телефон</label>
+      <input id="telephone"><br>
+      <label for="email">Email <em>*</em></label>
+      <input id="email"><br>
+  </fieldset>
+  <fieldset>
+    <legend>Персональна інформация</legend>
+      <label for="age">Скільки років<em>*</em></label>
+      <input id="age"><br>
+      <label for="gender">стать</label>
+      <select id="gender">
+        <option value="female">Жінка</option>
+        <option value="male">Чоловік</option>
+      </select><br>
+      <label for="comments">Ваші пощитивні якості</label>
+      <textarea id="comments"></textarea>
+  </fieldset>
+
+  <fieldset>
+    <legend>Ваші улюбленці</legend>
+    <label for="zebra"><input id="zebra" type="checkbox"> Зебра</label>
+    <label for="cat"><input id="cat" type="checkbox"> Кошак</label>
+    <label for="anaconda"><input id="anaconda" type="checkbox"> Анаконда</label>
+    <label for="human"><input id="human" type="checkbox"> Человек(росіянський)</label>
+    <label for="elephant"><input id="elephant" type="checkbox"> Слон</label>
+    <label for="wildebeest"><input id="wildebeest" type="checkbox"> Антилопа</label>
+    <label for="pigeon"><input id="pigeon" type="checkbox"> Біологічна зброя, небезпечний голуб</label>
+    <label for="crab"><input id="crab" type="checkbox"> Бандера</label>
+  </fieldset>
+  <p><input type="submit" value="Відправити інформацію"></p>
+</form>
+ 
+</td>
+ 
+</tr>
+ 
+</table>
+ 
+</body>
+
+ 
+</html>
